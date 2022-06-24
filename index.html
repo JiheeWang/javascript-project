@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_final/style5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <title>momentum app</title>
+</head>
+<body>
+    
+    <div id ="weatherapi">
+        <span></span>
+        <span></span>
+    </div>
+    
+    <div id="centerinfo"> 
+        <form id="loginbox" class="hidden"> 
+            <input required maxlength ="15" type="text" placeholder="what is you name?"/>
+            <button>입력</button>
+        </form>
+
+        <h1 id="greeting" class="hidden"></h1>
+        <h2 id="clock">00:00:00</h2>
+        <a href="https://nomadcoders.co">go to Nomad courses</a>
+        <form id="todo-form">
+            <input type="text" placeholder="type your plan and press enter." required/>
+        </form> 
+    </div>
+    <div id="todo-list-part">
+        <input id="toggle" type="checkbox">
+            <label for="toggle" onclick>LIST</label>
+        <ul id="todo-list"></ul>
+    </div>
+    <div id="quote">
+            <span></span>
+            <span></span>
+    </div>
+
+
+
+
+
+    <script src="js_final/greeting.js"></script>
+    <script src="js_final/clock.js"></script>
+    <script src="js_final/quotes.js"></script>
+    <script src="js_final/background.js"></script>
+    <script src="js_final/todo.js"></script>
+    <script src="js_final/weather.js"></script>
+
+</body>
+</html>
