@@ -1,0 +1,30 @@
+body {
+    color: rgb(16, 110, 68);
+    margin : 0,0,0,0;
+    padding: 0,0,0,0;
+    text-align: center;
+    background-color: rgb(255, 206, 192);
+
+}
+
+#wrap{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15%;
+    width: 50%;
+    background-color: bisque;
+    overflow-y: scroll;
+    text-align: left;
+    
+}
+#list{
+    list-style-type: none;
+
+}
+
+#list >li>img {
+    height: 30px;
+}
+
+
